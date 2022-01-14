@@ -1,7 +1,7 @@
 import './project.css'
 import placeholder from '../../img/placeholder.png'
 
-function Project(){
+function Project({img, link}){
     return (
         <div className="p">
             <div className="p-browser">
@@ -9,8 +9,8 @@ function Project(){
                 <div className="p-circle"></div>
                 <div className="p-circle"></div>
             </div>
-            <a href="https://google.com" target="_blank">
-                <img src={placeholder} alt="" className="p-img" />
+            <a href={link} target="_blank">
+                <img src={img} alt="" className="p-img" />
             </a>
         </div>
     )
