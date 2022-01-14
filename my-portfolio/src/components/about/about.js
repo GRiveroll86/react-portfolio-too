@@ -1,5 +1,5 @@
 import './about.css'
-import placeholder from '../../img/placeholder.png'
+import portrait from '../../img/portrait.png'
 
 function About() {
     return (
@@ -8,7 +8,7 @@ function About() {
             <div className="a-left">
                 <div className="a-card bg"></div>
                 <div className="a-card">
-                    <img src={placeholder} alt="" className="a-img" />
+                    <img src={portrait} alt="" className="a-img" />
                 </div>
             </div>
 
