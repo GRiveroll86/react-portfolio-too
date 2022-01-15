@@ -5,16 +5,18 @@ import { projects } from '../../projectInfo';
 function PorjectList(){
     return (
         <div className="pl">
-            <div classname="pl-texts">
-                <h1 className="pl-title">Project Title 1</h1>
+            <div className="pl-texts">
+                <h1 className="pl-title">Projects</h1>
                 <p className="pl-desc">
-                    This is a description of my first project. This is a description of my first project.
-                    This is a description of my first project. This is a description of my first project.
+                    Click on the name of the project to be directed to the Github repository.
+                </p>
+                <p>
+                    Click the image to be directed to the application.
                 </p>
             </div>
             <div className="pl-list">
                 {projects.map((item) => (
-                    <Project key={item.id} img={item.img} link={item.link}/>
+                    <Project key={item.id} title={item.title} img={item.img} link={item.link} repo={item.repo} />
                 ))}
             </div>
         </div>

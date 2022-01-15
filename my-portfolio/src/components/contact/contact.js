@@ -28,7 +28,7 @@ function Contact() {
             <div className="c-bg"></div>
             <div className="c-wrapper">
                 <div className="c-left">
-                    <h1 className="c-title">Let's talk about stuff!</h1>
+                    <h1 className="c-title">Let's talk!</h1>
                     <div className="c-info">
                         <div className="c-info-item">
                             <img src={Phone} alt="" className="c-icon" />

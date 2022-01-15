@@ -11,5 +11,7 @@
 
 .n-link{
     font-size: 50px;
+    font-weight: 600;
+    color: white;
     cursor: pointer;
 }

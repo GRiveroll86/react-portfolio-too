@@ -24,6 +24,12 @@
     background-color: white;
 }
 
+.p-title {
+    color: white;
+    margin-left: 2%;
+    text-decoration: none;
+}
+
 .p-img{
     width: 100%;
     transition: all 10s ease;

@@ -37,3 +37,7 @@
     height: 100%;
     object-fit: cover;
 }
+
+.a-desc {
+    margin-right: 10%;
+}
