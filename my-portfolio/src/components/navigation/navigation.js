@@ -1,29 +1,13 @@
 import './navigation.css';
+import Pdf from '../../Resume.pdf'
 
 function Navigation(){
-
-    function about(){
-        console.log('hello')
-    }
-
-    function projects(){
-        console.log('hello')
-    }
-
-    function contact(){
-        console.log('hello')
-    }
-
-    function resume(){
-        console.log('hello')
-    }
-
     return (
         <div className="n">
-            <div onClick={about} className="n-link">About</div>
-            <div onClick={projects} className="n-link">Projects</div>
-            <div onClick={contact} className="n-link">Contact</div>
-            <div onClick={resume} className="n-link">Resume</div>
+            <a href="#a" className="n-link">About</a>
+            <a  className="n-link">Projects</a>
+            <a  className="n-link">Contact</a>
+            <a href={Pdf} target="_blank" className="n-link">Resume</a>
         </div>
     )
 }

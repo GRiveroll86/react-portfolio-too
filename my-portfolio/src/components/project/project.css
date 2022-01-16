@@ -8,7 +8,7 @@
 }
 
 .p-browser{
-    height: 20px;
+    height: 35px;
     background-color: black;
     display: flex;
     align-items: center;
@@ -16,15 +16,8 @@
     z-index: 2;
 }
 
-.p-circle{
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    margin: 3px;
-    background-color: white;
-}
-
 .p-title {
+    font-size: 1.3em;
     color: white;
     margin-left: 2%;
     text-decoration: none;

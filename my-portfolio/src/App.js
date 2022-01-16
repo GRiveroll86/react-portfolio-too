@@ -1,7 +1,7 @@
 import Header from "./components/header/header";
 import About from './components/about/about';
 import ProjectList from './components/projectList/projectList';
-import Contact from './components/contact/contact';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <Header />
       <About />
       <ProjectList />
-      <Contact />
+      <Footer />
     </div>
   );
 }

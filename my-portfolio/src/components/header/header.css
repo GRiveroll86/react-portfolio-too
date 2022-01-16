@@ -31,6 +31,10 @@
     font-size: 60px;
 }
 
+.i-desc{
+    font-size: 18px;
+}
+
 .i-title{
     height: 50px;
     overflow: hidden;
